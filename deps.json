@@ -1,0 +1,7 @@
+{
+    "repo": "DancerDeps/yaml-cpp",
+    "name": "yaml_cpp",
+    "workspace": "lib",
+    "build": [],
+    "deps": {}
+}
