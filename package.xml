@@ -1,0 +1,13 @@
+<package>
+    <name>yaml_cpp</name>
+    <version>0.6.2</version>
+    <maintainer email="d2147483647@gmail.com">Daiz</maintainer>
+    <author>Jesse Beder</author>
+    <description>
+        yaml-cpp is a YAML parser and emitter in C++ matching the YAML 1.2 spec.
+    </description>
+    <license>custom</license>
+    <url>https://github.com/jbeder/yaml-cpp</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+</package>

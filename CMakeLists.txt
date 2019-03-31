@@ -9,7 +9,15 @@ include(CheckCXXCompilerFlag)
 ###
 ### Project settings
 ###
-project(YAML_CPP)
+project(yaml_cpp)
+
+find_package(catkin REQUIRED)
+	catkin_package(
+	  INCLUDE_DIRS src
+	  LIBRARIES yaml_cpp
+	#  CATKIN_DEPENDS other_catkin_pkg
+	#  DEPENDS system_lib
+	)
 
 set(YAML_CPP_VERSION_MAJOR "0")
 set(YAML_CPP_VERSION_MINOR "6")
